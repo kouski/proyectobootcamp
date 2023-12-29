@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "beta:build:production"
+              "buildTarget": "naturquinoa:build:production"
             },
             "development": {
-              "buildTarget": "beta:build:development"
+              "buildTarget": "naturquinoa:build:development"
             }
           },
           "defaultConfiguration": "development"
