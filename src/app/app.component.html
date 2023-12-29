@@ -1,46 +1,9 @@
-<div  class="container-fluid">
-  
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
-    <div class="container-fluid">
-      
-      <a class="navbar-brand" href="#">
-        <img src="../assets/images/naturquinoa_logo-removebg.png" alt="logo morado de naturquinoa" width="200" height="70">
-      </a>
-      <span class="navbar-text text-center">
-        Comer sano y preservar el planeta está en tus manos.
-      </span>
-      <mat-slide-toggle  (click)="toggleDarkTheme()">Modo Oscuro</mat-slide-toggle>
-      
+<div class="container-fluid">
+  <app-navbar></app-navbar>
 
+  <div class="container main"></div>
 
-
-
-    </div>
-  </nav>
-
-  <!-- navbar -->
-
-  <!-- main -->
-  <div class="container main">
-
-
-    
-  </div>
-
-<!-- main -->
-<app-footer></app-footer>
- 
-  
-  
-
-
-
-  
-  
-  
+  <app-footer></app-footer>
 </div>
-
-
 
 <router-outlet></router-outlet>
