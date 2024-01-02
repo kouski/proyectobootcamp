@@ -13,11 +13,12 @@ body {
   --bkg-color: #fff;
   --btn-bg-color: rgb(11, 88, 160);
   --btn-txt-color: white;
-  --company-color:#9B5C9C;
+  --company-color:#8b1c8d;
   --text-color: #222;
   --copyright-color:#121212;
-  --logo-color:#686666;
-  --span-logo-color:#686666;
+  --logo-color:#4a4747;
+  --span-logo-color:#4a4747;
+  --footer-bkg-color: #0000000d;
   background: var(--bkg-color);
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
@@ -43,10 +44,11 @@ body.dark-theme {
   --bkg-color: #121212; /* Ya cumple con el contraste */
   --btn-bg-color: rgb(94, 114, 176); /* Ya cumple con el contraste */
   --btn-txt-color: #fafafa; /* Cambiado a un gris más claro para mejorar el contraste */
-  --company-color:#c066c1;
+  --company-color:#c790c8;
   --copyright-color:#ece7e7;
-  --logo-color:whitesmoke;
-  --span-logo-color:whitesmoke;
+  --logo-color:#d2c6d8;
+  --span-logo-color:#d2c6d8;
+  --footer-bkg-color: #3e3e3d;
   --text-color: #f0f0f0; /* Cambiado a un gris más claro para mejorar el contraste */
 }
 
@@ -80,6 +82,10 @@ a:hover {
   color: var(--company-color);
 }
 
+.copy{
+  background-color: var(--footer-bkg-color);
+}
+
 h1,
 p, 
 .mdc-label, 
@@ -95,17 +101,9 @@ button {
   padding: 10px;
 }
 
-.accordion-button{
-    background-color: var(--accordion-color);
-    color: rgb(234, 234, 11);
-}
 
 
-#accordionExample{
-    margin: 0 auto;
-    text-align: center;
-    width: 70%;
-}
+
 
 
 /* html, body { height: 100%; }
