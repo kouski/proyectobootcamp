@@ -45,8 +45,8 @@ body.dark-theme {
   --btn-txt-color: #fafafa; /* Cambiado a un gris más claro para mejorar el contraste */
   --company-color:#c066c1;
   --copyright-color:#ece7e7;
-  --logo-color:#f0f0f0;
-  --span-logo-color:#f0f0f0;
+  --logo-color:whitesmoke;
+  --span-logo-color:whitesmoke;
   --text-color: #f0f0f0; /* Cambiado a un gris más claro para mejorar el contraste */
 }
 
