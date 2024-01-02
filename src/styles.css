@@ -15,7 +15,7 @@ body {
   --btn-txt-color: white;
   --company-color:#9B5C9C;
   --text-color: #222;
-  --copyright-color:#121212
+  --copyright-color:#121212;
   background: var(--bkg-color);
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
@@ -42,6 +42,7 @@ body.dark-theme {
   --btn-bg-color: rgb(94, 114, 176); /* Ya cumple con el contraste */
   --btn-txt-color: #fafafa; /* Cambiado a un gris más claro para mejorar el contraste */
   --company-color:#c066c1;
+  --copyright-color:#ece7e7;
   --text-color: #f0f0f0; /* Cambiado a un gris más claro para mejorar el contraste */
 }
 
