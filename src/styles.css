@@ -15,6 +15,7 @@ body {
   --btn-txt-color: white;
   --company-color:#9B5C9C;
   --text-color: #222;
+  --copyright-color:#121212
   background: var(--bkg-color);
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
