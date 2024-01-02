@@ -37,9 +37,10 @@ body {
 
 body.dark-theme {
   --accordion-color: rgb(118, 204, 169); /* Ya cumple con el contraste */
-  --bkg-color: #333; /* Ya cumple con el contraste */
+  --bkg-color: #121212; /* Ya cumple con el contraste */
   --btn-bg-color: rgb(94, 114, 176); /* Ya cumple con el contraste */
   --btn-txt-color: #fafafa; /* Cambiado a un gris más claro para mejorar el contraste */
+  --company-color:#c066c1;
   --text-color: #f0f0f0; /* Cambiado a un gris más claro para mejorar el contraste */
 }
 
