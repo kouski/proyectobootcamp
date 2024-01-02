@@ -70,10 +70,10 @@ a:hover {
 }
 
 .logo{
-  color: #686666;
+  color: var(--logo-color);
 }
 .span-logo{
-  color: #686666;
+  color: var(--span-logo-color);
 }
 
 .logo:hover{
