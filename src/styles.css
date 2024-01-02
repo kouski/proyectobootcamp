@@ -26,13 +26,23 @@ body {
   --accordion-color: rgb(30, 4, 106);
 } */
 
+/* body.dark-theme {
+  --accordion-color: rgb(144, 255, 219); 
+  --bkg-color: #222; 
+  --btn-bg-color: rgb(144, 167, 255); 
+  --btn-txt-color: black; 
+  --text-color: #ddd; 
+} */
+
+
 body.dark-theme {
-  --accordion-color: rgb(144, 255, 219); /* Un tono más claro que el anterior verde oscuro */
-  --bkg-color: #222; /* Antes era claro (#fff), ahora es oscuro */
-  --btn-bg-color: rgb(144, 167, 255); /* Un tono más claro que el anterior azul oscuro */
-  --btn-txt-color: black; /* Antes era claro (white), ahora es oscuro */
-  --text-color: #ddd; /* Antes era oscuro (#222), ahora es claro */
+  --accordion-color: rgb(118, 204, 169); /* Ya cumple con el contraste */
+  --bkg-color: #333; /* Ya cumple con el contraste */
+  --btn-bg-color: rgb(94, 114, 176); /* Ya cumple con el contraste */
+  --btn-txt-color: #fafafa; /* Cambiado a un gris más claro para mejorar el contraste */
+  --text-color: #f0f0f0; /* Cambiado a un gris más claro para mejorar el contraste */
 }
+
 
 
 .navbar-text{
