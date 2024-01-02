@@ -16,6 +16,7 @@ body {
   --company-color:#9B5C9C;
   --text-color: #222;
   --copyright-color:#121212;
+  --logo-color:#b1afaf;
   background: var(--bkg-color);
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
@@ -43,6 +44,7 @@ body.dark-theme {
   --btn-txt-color: #fafafa; /* Cambiado a un gris más claro para mejorar el contraste */
   --company-color:#c066c1;
   --copyright-color:#ece7e7;
+  --logo-color:#ece7e7;
   --text-color: #f0f0f0; /* Cambiado a un gris más claro para mejorar el contraste */
 }
 
@@ -63,6 +65,10 @@ a {
 a:hover {
   color: black; 
   text-decoration: underline; 
+}
+
+.logo{
+  color: #ece7e7;
 }
 
 .logo:hover{
