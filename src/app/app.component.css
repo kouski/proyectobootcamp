@@ -3,7 +3,7 @@
 ::ng-deep
   .mat-mdc-slide-toggle.mat-mdc-slide-toggle-checked:not(.mat-disabled)
   .mdc-switch__shadow {
-  background-color: #9B5C9C;
+  background-color: #8b1c8d;
 }
 
 ::ng-deep
@@ -14,4 +14,8 @@
 
 .main{
   height: 100vh;
+}
+
+h2{
+  color: var(--text-color);
 }

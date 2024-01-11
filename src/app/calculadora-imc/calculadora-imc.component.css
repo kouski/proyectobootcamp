@@ -1,0 +1,45 @@
+label{
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.col{
+    background-image: url(./luxa.org-opacity-changed-imc.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto_calculadora{
+    color: black;
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+input{
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+select{
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #126629;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+button:hover{
+    background-color: rgb(64, 147, 20);
+    color: whitesmoke;
+    border: 3px solid white;
+}
+
+form{
+    margin-left: 3em;
+}
+
+

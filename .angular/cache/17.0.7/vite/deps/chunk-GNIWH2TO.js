@@ -1,8 +1,10 @@
 import {
   BrowserModule,
-  DOCUMENT,
   DomRendererFactory2
-} from "./chunk-XQ2W6HDO.js";
+} from "./chunk-LJFDQII4.js";
+import {
+  DOCUMENT
+} from "./chunk-2Z3F47PJ.js";
 import {
   ANIMATION_MODULE_TYPE,
   ApplicationRef,
@@ -4617,4 +4619,4 @@ export {
    * License: MIT
    *)
 */
-//# sourceMappingURL=chunk-ZAXN3KS3.js.map
+//# sourceMappingURL=chunk-GNIWH2TO.js.map

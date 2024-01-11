@@ -1,0 +1,115 @@
+
+<h2 class="text-center mt-5">¡No te pierdas esta oportunidad única! Al registrarte, recibirás un regalo especial: nuestro eBook exclusivo</h2>
+  
+<div class=" container mb-5">
+    
+  <div class="content">
+    
+    <div class="image">
+      <img src="" alt="" />
+    </div>
+
+    <div class="text">
+      ¡¡Regístrate y consigue <br />
+      un libro electrónico de recetas gratis!!
+    </div>
+  </div>
+
+  <form id="form" [formGroup]="forma" (ngSubmit)="enviar()">
+    <div>
+      <div>
+        <label class="col-2 col-form-label">Nombre</label>
+        <i class="fa fa-user"></i>
+        <input
+          class="form-control"
+          type="text"
+          formControlName="nombre"
+          [class.is-invalid]="nombreNoValido"
+          placeholder="Nombre"
+        />
+        <p *ngIf="nombreNoValido" class="small-formulario">
+          Ingrese un nombre que contenga mínimo 3 letras
+        </p>
+      </div>
+
+      <div>
+        <label class="col-2 col-form-label">Apellido</label>
+        <i class="fa fa-user"></i>
+        <input
+          class="form-control"
+          type="text"
+          formControlName="apellido"
+          [class.is-invalid]="apellidoNoValido"
+          placeholder="Apellido"
+        />
+        <small *ngIf="apellidoNoValido" class="small-formulario"
+          >Ingrese un apellido que contenga mínimo 3 letras</small
+        >
+      </div>
+
+      <div>
+        <label class="col-4 col-form-label">Correo electrónico</label>
+
+        <i class="fa fa-envelope"></i>
+        <input
+          class="form-control"
+          type="email"
+          formControlName="correo"
+          [class.is-invalid]="correoNoValido"
+          placeholder="xxx@xxx.xx"
+        />
+        <small *ngIf="correoNoValido" class="small-formulario"
+          >Ingrese un email válido</small
+        >
+      </div>
+    </div>
+    <div>
+      <label class="col-3 col-form-label">Password</label>
+
+      <i class="fa fa-key"></i>
+      <input
+        class="form-control"
+        formControlName="password1"
+        [class.is-invalid]="password1NoValido"
+        placeholder="******"
+        type="password"
+      />
+      <small *ngIf="password1NoValido" class="small-formulario"
+        >Ingrese una contraseña que contenga 6 caracteres</small
+      >
+    </div>
+
+    <div>
+      <label class="col-4 col-form-label">Confirmar password</label>
+
+      <i class="fa fa-key"></i>
+      <input
+        class="form-control"
+        formControlName="password2"
+        [class.is-invalid]="password2NoValido"
+        placeholder="******"
+        type="password"
+      />
+      <small *ngIf="password2NoValido" class="small-formulario"
+        >Las contraseñas no coinciden</small
+      >
+    </div>
+
+    <div>
+      <label class="col-2 col-form-label">&nbsp;</label>
+      <div class="input-group col-md-8">
+        <button type="submit" class="mr-2">Quiero el Libro Electrónico</button>
+        <p
+          id="envio_formulario"
+          class="mt-3 text-center text-success fw-bold border border-success border-3 p-3 lh-base"
+          *ngIf="envioRealizado"
+        >
+          Gracias {{usuario.nombre}} {{usuario.apellido}}!!, te has registrado correctamente,en breve recibirás el ebook de recetas en tu correo electrónico.
+      
+        </p>
+        <!-- <button type="button" class="btn btn-outline-danger" (click)="limpiar()">Limpiar</button> -->
+      </div>
+    </div>
+  </form>
+</div>
+

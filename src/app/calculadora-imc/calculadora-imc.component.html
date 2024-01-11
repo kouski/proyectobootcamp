@@ -1,0 +1,63 @@
+<div class="container mt-5">
+  <div class="row">
+    <h2 class="font-weight-bold">En Naturquinoa, tu salud y bienestar son nuestra 
+      prioridad. Descubre una herramienta exclusiva: nuestra calculadora de masa corporal y porcentaje de grasa, 
+      diseñada para ayudarte en tu camino hacia un estilo de vida más saludable.</h2>
+    <div class="col mt-5">
+      <form class="pt-5">
+        <label class="texto_calculadora" for="sexo">Seleccione su sexo:</label>
+        <select id="sexo" name="sexo" [(ngModel)]="sexo">
+          <option value="1">Masculino</option>
+          <option value="0">Femenino</option>
+        </select>
+        <br />
+        <br />
+        <label class="texto_calculadora" for="peso">Peso corporal en Kg:</label>
+        <input
+          type="number"
+          id="peso"
+          name="peso"
+          min="0"
+          max="150"
+          step="0.1"
+          [(ngModel)]="peso"
+        />
+        <br />
+        <br />
+        <label class="texto_calculadora" for="altura">Altura corporal en m:</label>
+        <input
+          type="number"
+          id="altura"
+          name="altura"
+          min="40"
+          max="250"
+          step="1"
+          [(ngModel)]="altura"
+        />
+        <br />
+        <br />
+        <label class="texto_calculadora" for="edad">Edad en años:</label>
+        <input
+          type="number"
+          id="edad"
+          name="edad"
+          min="0"
+          max="120"
+          step="1"
+          [(ngModel)]="edad"
+        />
+      
+      <br />
+      <br />
+      <button type="button" (click)="calcularMasaCorporal()">
+        Calcular Masa Corporal y Porcentaje de Grasa
+      </button>
+    </form >
+      <br />
+      <br />
+      <h3 id="masaCorporal">{{ resultadoMasaCorporal }}</h3>
+      <h3 id="porcentajeGrasa">{{ resultadoPorcentajeGrasa }}</h3>
+      <h3 id="tablaOms">{{ resultadoTablaOms }}</h3>
+    </div>
+  </div>
+</div>

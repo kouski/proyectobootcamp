@@ -1,53 +1,71 @@
 {
-  "hash": "c20e46e0",
-  "browserHash": "87de9c3a",
+  "hash": "7cf0c3fb",
+  "browserHash": "103b0cf0",
   "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "4fce81c0",
+      "needsInterop": false
+    },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "657b329a",
+      "fileHash": "3c28152d",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "d3fdf430",
       "needsInterop": false
     },
     "@angular/material/chips": {
       "src": "../../../../../node_modules/@angular/material/fesm2022/chips.mjs",
       "file": "@angular_material_chips.js",
-      "fileHash": "f06029af",
+      "fileHash": "34483b05",
       "needsInterop": false
     },
     "@angular/material/slide-toggle": {
       "src": "../../../../../node_modules/@angular/material/fesm2022/slide-toggle.mjs",
       "file": "@angular_material_slide-toggle.js",
-      "fileHash": "04c94735",
+      "fileHash": "b24c8e29",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "393f456f",
+      "fileHash": "9d8becce",
       "needsInterop": false
     },
     "@angular/platform-browser/animations": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
       "file": "@angular_platform-browser_animations.js",
-      "fileHash": "dcfe7474",
+      "fileHash": "7a4fb2e4",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "f71962c8",
+      "fileHash": "2cd325bb",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-M7J6S5QD": {
-      "file": "chunk-M7J6S5QD.js"
+    "chunk-VHEB3YWU": {
+      "file": "chunk-VHEB3YWU.js"
     },
-    "chunk-ZAXN3KS3": {
-      "file": "chunk-ZAXN3KS3.js"
+    "chunk-CH57SN4X": {
+      "file": "chunk-CH57SN4X.js"
     },
-    "chunk-XQ2W6HDO": {
-      "file": "chunk-XQ2W6HDO.js"
+    "chunk-GNIWH2TO": {
+      "file": "chunk-GNIWH2TO.js"
+    },
+    "chunk-LJFDQII4": {
+      "file": "chunk-LJFDQII4.js"
+    },
+    "chunk-2Z3F47PJ": {
+      "file": "chunk-2Z3F47PJ.js"
     },
     "chunk-TMF34ROS": {
       "file": "chunk-TMF34ROS.js"
