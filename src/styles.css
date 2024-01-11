@@ -1,0 +1,113 @@
+/* @font-face {
+  font-family: 'Merienda', cursive;
+  src: url('./assets/fonts/static/Merienda-ExtraBold.ttf');
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --accordion-color: rgb(11, 160, 36);
+  --bkg-color: #fff;
+  --btn-bg-color: rgb(11, 88, 160);
+  --btn-txt-color: white;
+  --company-color:#8b1c8d;
+  --text-color: #222;
+  --copyright-color:#121212;
+  --logo-color:#4a4747;
+  --span-logo-color:#4a4747;
+  --footer-bkg-color: #0000000d;
+  background: var(--bkg-color);
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+/* body.dark-theme {
+  --text-color: #eee;
+  --bkg-color: #252222;
+  --btn-txt-color: rgb(46, 43, 43);
+  --btn-bg-color: rgb(20, 211, 195);
+  --accordion-color: rgb(30, 4, 106);
+} */
+
+/* body.dark-theme {
+  --accordion-color: rgb(144, 255, 219); 
+  --bkg-color: #222; 
+  --btn-bg-color: rgb(144, 167, 255); 
+  --btn-txt-color: black; 
+  --text-color: #ddd; 
+} */
+
+
+body.dark-theme {
+  --accordion-color: rgb(118, 204, 169); /* Ya cumple con el contraste */
+  --bkg-color: #121212; /* Ya cumple con el contraste */
+  --btn-bg-color: rgb(94, 114, 176); /* Ya cumple con el contraste */
+  --btn-txt-color: #fafafa; /* Cambiado a un gris más claro para mejorar el contraste */
+  --company-color:#c790c8;
+  --copyright-color:#ece7e7;
+  --logo-color:#d2c6d8;
+  --span-logo-color:#d2c6d8;
+  --footer-bkg-color: #3e3e3d;
+  --text-color: #f0f0f0; /* Cambiado a un gris más claro para mejorar el contraste */
+}
+
+
+
+.navbar-text{
+  color: var(--company-color);
+  font-size: 1.2rem;
+}
+.text-uppercase{
+  color: var(--company-color);
+}
+
+a {
+  color: black; 
+  text-decoration: none; 
+}
+a:hover {
+  color: black; 
+  text-decoration: underline; 
+}
+
+.logo{
+  color: var(--logo-color);
+}
+.span-logo{
+  color: var(--span-logo-color);
+}
+
+.logo:hover{
+  color: var(--company-color);
+}
+
+.copy{
+  background-color: var(--footer-bkg-color);
+}
+
+h1,
+p, 
+.mdc-label, 
+#email {
+  color: var(--text-color);
+  
+}
+button {
+  background-color: var(--btn-bg-color);
+  border-radius: 2px;
+  border: none;
+  color: var(--btn-txt-color);
+  padding: 10px;
+}
+
+
+
+
+
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+ */
+
+
