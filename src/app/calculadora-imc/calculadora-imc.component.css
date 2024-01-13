@@ -10,9 +10,10 @@ label{
 }
 
 .texto_calculadora{
-    color: black;
+    color: rgb(57, 113, 26);
     font-weight: 800;
     margin-right: 5px;
+    
 }
 
 input{
