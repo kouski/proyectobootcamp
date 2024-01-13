@@ -10,6 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CalculadoraImcComponent } from './calculadora-imc/calculadora-imc.component';
+import { CarruselExperienciasComponent } from './carrusel-experiencias/carrusel-experiencias.component';
 
 
 
@@ -20,6 +21,7 @@ import { CalculadoraImcComponent } from './calculadora-imc/calculadora-imc.compo
     NavbarComponent,
     FormularioComponent,
     CalculadoraImcComponent,
+    CarruselExperienciasComponent,
       
       
    ],

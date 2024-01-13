@@ -21,6 +21,7 @@ body {
   --span-logo-color:#4a4747;
   --footer-bkg-color: #0000000d;
   --valid-form:#EB1806;
+  --carrusel-text:white;
   background: var(--bkg-color);
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
@@ -38,6 +39,7 @@ body.dark-theme {
   --footer-bkg-color: #3e3e3d;
   --text-color: #f0f0f0;
   --valid-form:#f25653fe;
+  --carrusel-text:#121212;
   
 }
 

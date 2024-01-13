@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class CalculadoraImcComponent {
   sexo: string = '1';
-  peso: number = 3;
+  peso: number = 0;
   altura: number = 0.4; // Convertir altura a metros
   edad: number = 0;
   resultadoMasaCorporal: string = '';
@@ -26,5 +26,6 @@ export class CalculadoraImcComponent {
     // Implementar la lógica de cálculo aquí
     // Utilizar this.sexo, this.peso, this.altura, this.edad para obtener los valores
     // Actualizar this.resultadoMasaCorporal, this.resultadoPorcentajeGrasa, this.resultadoTablaOms
+    
   }
 }
