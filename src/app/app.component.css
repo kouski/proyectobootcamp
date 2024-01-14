@@ -1,0 +1,21 @@
+
+/* Colores botón dark-mode on */
+::ng-deep
+  .mat-mdc-slide-toggle.mat-mdc-slide-toggle-checked:not(.mat-disabled)
+  .mdc-switch__shadow {
+  background-color: #8b1c8d;
+}
+
+::ng-deep
+  .mat-mdc-slide-toggle.mat-mdc-slide-toggle-checked:not(.mat-disabled)
+  .mdc-switch__track::after {
+  background-color: rgb(221, 219, 117) !important;
+}
+
+.main{
+  height: 100vh;
+}
+
+h2{
+  color: var(--text-color);
+}

@@ -1,0 +1,14 @@
+<div class="container">
+    <h2>Descubre el fascinante mundo de la quinoa a través de nuestro podcast exclusivo. </h2>
+    <audio #audioPlayer controls>
+        <source [src]="audioSource" type="audio/mp3">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+    <br>
+    <button (click)="play()">Reproducir</button>
+    <button (click)="pause()">Pausar</button>
+    <button (click)="stop()">Detener</button>
+
+    
+  </div>
+
