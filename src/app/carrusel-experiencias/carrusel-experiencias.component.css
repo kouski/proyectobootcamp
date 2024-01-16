@@ -1,6 +1,7 @@
 #carruselDiv{
     background-color: var(--company-color);
     text-align: center;
+    color: white;
 }
 
 .carruselTextos{
