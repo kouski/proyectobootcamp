@@ -6,7 +6,7 @@ import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
   styleUrl: './reproductor.component.css'
 })
 export class ReproductorComponent {
-  audioSource = "../assets/audio/Beneficiosdelaquinoa.mp3";
+  audioSource = "../assets/audio/105_Quinoa_.mp3";
   @ViewChild('audioPlayer', { static: false }) audioPlayer!: ElementRef<HTMLAudioElement>;
 
   ngAfterViewInit(): void {
