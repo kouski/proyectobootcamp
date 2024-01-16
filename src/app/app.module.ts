@@ -12,9 +12,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CalculadoraImcComponent } from './calculadora-imc/calculadora-imc.component';
 import { CarruselExperienciasComponent } from './carrusel-experiencias/carrusel-experiencias.component';
 import { ReproductorComponent } from './reproductor/reproductor.component';
-import { ListaComponent } from './lista/lista.component';
 import { RecetasComponent } from './recetas/recetas.component';
 import { HttpClientModule } from "@angular/common/http";
+import { ListaComponent } from './lista/lista.component';
 
 
 
