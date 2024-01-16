@@ -12,6 +12,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CalculadoraImcComponent } from './calculadora-imc/calculadora-imc.component';
 import { CarruselExperienciasComponent } from './carrusel-experiencias/carrusel-experiencias.component';
 import { ReproductorComponent } from './reproductor/reproductor.component';
+import { ListaComponent } from './lista/lista.component';
+import { RecetasComponent } from './recetas/recetas.component';
+import { HttpClientModule } from "@angular/common/http";
 
 
 
@@ -24,6 +27,8 @@ import { ReproductorComponent } from './reproductor/reproductor.component';
     CalculadoraImcComponent,
     CarruselExperienciasComponent,
     ReproductorComponent,
+    ListaComponent,
+    RecetasComponent,
       
       
    ],
@@ -34,7 +39,8 @@ import { ReproductorComponent } from './reproductor/reproductor.component';
     MatSlideToggleModule,
     MatChipsModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule,
     
   ],
   providers: [],

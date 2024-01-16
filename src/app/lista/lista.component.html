@@ -1,0 +1,15 @@
+<div class="container mt-4">
+    <div class="row">
+      <h2 class="mb-4">Recetas</h2>
+      <div class="col-md-4 mb-4" *ngFor="let recipe of recipes">
+        <div class="card">
+          <img [src]="recipe.image" class="card-img-top" alt="Recipe Image" />
+          <div class="card-body">
+            <h4 class="card-title">{{ recipe.title }}</h4>
+            <p class="card-text">{{ recipe.summary }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
