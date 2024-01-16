@@ -44,5 +44,8 @@ body {
     font-size: 1.3rem;
   }
   
-  
+  .form-control:focus {
+    border-color: #171b18; /* Cambia este color según tus preferencias */
+    box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25); /* Efecto de sombra al enfocar */
+  }
   
